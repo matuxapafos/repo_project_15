@@ -1,0 +1,71 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-18d7595428e-6bbe2303b76bdb4e": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "Info.db",
+			"save-password": true,
+			"configuration": {
+				"database": "E:\\projects and homework\\instance\\Info.db",
+				"url": "jdbc:sqlite:E:\\projects and homework\\instance\\Info.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18d759e1fc6-22a9cb2cfdc7a210": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "Info.db 2",
+			"save-password": true,
+			"configuration": {
+				"database": "E:\\projects and homework\\instance\\Info.db",
+				"url": "jdbc:sqlite:E:\\projects and homework\\instance\\Info.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18d759f4272-ca83d8d27c29d77": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "Info.db 3",
+			"save-password": true,
+			"configuration": {
+				"database": "E:\\projects and homework\\instance\\Info.db",
+				"url": "jdbc:sqlite:E:\\projects and homework\\instance\\Info.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-18d75a06fd9-45ed09c168953551": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "Info.db 4",
+			"save-password": true,
+			"configuration": {
+				"database": "E:\\projects and homework\\instance\\Info.db",
+				"url": "jdbc:sqlite:E:\\projects and homework\\instance\\Info.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Разработка",
+			"color": "255,255,255",
+			"description": "База данных для разработки",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": false,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800
+		}
+	}
+}
